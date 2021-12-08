@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<title>
+Test CI190057
+
+</title>
+   <link rel="stylesheet" href="gaya.css">
+<head>
+ 
+    <h1>“BIC21203 Web Development, Session 2021/2022 Sem 1, Test</h1>
+    <img  src="myFace.JPG">
+</head>
+<body>
+    
+
+    <form>
+    <table border="1" cellspacing="0" cellpadding="10px">
+        <tr>
+            <th>No</th>
+            <th>Input</th>
+            <th>Notes</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Matric Number</td>
+            <td><input type="text" id="mtric" name="mtric"></td>
+
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Section</td>
+            <td><input type="number" id="section" name="section" min="1" max="10"></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Name</td>
+            <td><input type="text" id="fname" name="fname"></td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Date of Birth</td>
+            <td><input type="date" id="birthday" name="birthday"></td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Gender</td>
+            <td><input type="radio" id="male">
+                  <label for="male">Male</label>
+                  <input type="radio" id="female">
+                  <label for="female">Female</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Social Media Account(s)</td>
+            <td><input type="radio" id="insta" name="socmdia" value="ins">
+                  <label for="instagram">Instagram</label><br>
+                  <input type="radio" id="fb" name="socmdia" value="fbc">
+                  <label for="facebook">Facebook</label><br>
+                  </td>
+        </tr>
+    </table>
+</form>
+<div class="btncenter">
+    <input style="text-align:center" type="button" onclick="submition()" value="Submit form">
+</div>
+<p id="lblStatus"></p>
+<script src="myForm.js"></script>
+</body>
+
+
+
+</html>
